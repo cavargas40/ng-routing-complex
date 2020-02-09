@@ -32,7 +32,8 @@ const appRoutes: Routes = [
   },
   {
     path: '**', redirectTo: 'not-found'
-  }
+  },
+  //{ path: '', redirectTo: '/somewhere-else', pathMatch: 'full' }         //redirection path matching
 ];
 
 @NgModule({
